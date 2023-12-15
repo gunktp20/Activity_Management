@@ -1,0 +1,86 @@
+.form-main{
+  display: flex;
+  flex-direction: column;
+  padding: 2rem 2.5rem;
+  border-radius: 10px;
+  /* background-color: #f6f6f6; */
+  background-color: #f6f6f6;
+  width: 450px;
+  /* box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px; */
+}
+
+.form-control{
+  display:flex;
+  margin-bottom: 0.9rem;
+}
+
+.form-control input{
+  padding-left: 0.5rem;
+  height: 34px;
+  width: 100%;
+  border:1px solid #cdcdcd;
+  border-radius: 5px;
+}
+
+img{
+  width: 200px;
+  margin:0 auto;
+  margin-bottom: 1rem;
+}
+
+h1{
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+.btn{
+  height: 34px;
+  border:none;
+  color:#fff;
+  border-radius: 5px;
+  background-color: #333;
+  font-weight: bold;
+  box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+}
+
+.activities-container{
+  display: flex;
+  flex-direction: column;
+  margin-top: 1rem;
+}
+
+.activity{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  padding: 0 1rem;
+  background-color: #fff;
+  margin-top: 0.8rem;
+  align-items: center;
+  padding: 0.5rem 1rem;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+}
+
+.btn-delete{
+  background-color: #ff4444;
+  color:#fff;
+  padding: 0 0.8rem;
+  border: none;
+  height: 26px;
+  font-size: 11px;
+}
+
+.detail{
+  display: flex;
+  flex-direction: column;
+  grid-gap:0.5rem;
+}
+
+p.title{
+  font-size: 14px;
+}
+p.duration{
+  font-size: 11px;
+}
